@@ -19,7 +19,6 @@ services:
     build:
       context: .
     ports:
-      - ${PORT}:${PORT}
       - 9229:9229
     env_file:
       - .env
