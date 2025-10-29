@@ -25,7 +25,7 @@ jobs:
           context: .
           push: true
           tags: |
-            meep00/adonis_app:latest
-            meep00/adonis_app:${{ github.sha }}
+              ${{ secrets.DOCKERHUB_USERNAME }}/cocktails:latest
+              ${{ secrets.DOCKERHUB_USERNAME }}/cocktails:${{ github.sha }}
 
 
