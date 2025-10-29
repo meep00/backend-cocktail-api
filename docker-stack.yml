@@ -18,7 +18,7 @@ services:
       - "5432:5432"
 
   adonis_app:
-    image: ${DOCKERHUB_USERNAME}/adonis_app:latest
+    image: ${DOCKERHUB_USERNAME}/cocktails:latest
     depends_on:
       - postgres
     environment:
