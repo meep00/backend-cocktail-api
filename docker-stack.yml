@@ -28,6 +28,13 @@ services:
       DB_PASSWORD: ${DB_PASSWORD}
       DB_DATABASE: ${DB_DATABASE}
       PG_HOST: ${PG_HOST}
+      APP_KEY: ${APP_KEY}
+      PORT: ${PORT}
+      HOST: ${HOST}
+      LOG_LEVEL: ${LOG_LEVEL}
+      DB_PORT: ${DB_PORT}
+      APP_DOMAIN: ${APP_DOMAIN}
+      DRIVE_DISK: ${DRIVE_DISK}
     networks:
       - app_network
     ports:
